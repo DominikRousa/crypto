@@ -15,22 +15,30 @@
                 
             </div>
             <div class="search">
-                <input type="text">
-                <div>
-                    <label for="output"></label>
-                    <h3 class="output"></h3>
-                </div>
-                <div>
-                    <label for="output"></label>
-                    <h3 class="output"></h3>
-                </div>
-                <div>
-                    <label for="output"></label>
-                    <h3 class="output"></h3>
-                </div>
+                <div class="searchPage">
+                    <div class="searchContainer">
+                        <h3><strong>Najdi Krypto</strong></h3>
+                        <input onchange="search()" type="text" id="searchInp" list="currency" placeholder="Zadej Zkratku">
+                    </div>
+                </div> 
+            </div>
+            <div id="searchOut">
+
             </div>
         </div>
     </div>
+
+    <datalist id="currency">
+        <option value="BTC">
+        <option value="ETH">
+        <option value="USDT">
+        <option value="TRX">
+        <option value="IMX">
+        <option value="XLM">
+        <option value="ADA">
+        <option value="SHIB">
+    </datalist>
+
     <script src="script.js"></script>
 
 </body>

@@ -39,7 +39,9 @@ h4{
     border: 2.5px solid rgba(1,65,253,255);
     border-radius: 36px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    flex-direction: row;
     padding-inline: 6vh;
 }
 
@@ -53,3 +55,40 @@ h4{
     flex-direction: column;
 }
 
+.price{
+    text-align: end;
+}
+
+.searchPage{
+    margin-top: 15vh;
+    display: flex;
+    justify-content: center;
+    padding: 10vh;
+}
+
+.searchContainer{
+    display: flex;
+    flex-direction: column;
+    text-align: left; 
+    max-width: 80vh;
+    padding-inline: 5vh;
+    padding-block: 5vh;
+    border: 1px transparent;
+    border-radius: 2.5vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px 5px;
+    background-color: #f8f8f8;
+}
+
+.searchContainer h3{
+    font-size: 36px;
+    color: #000;
+    text-align: center;
+}
+
+.searchContainer input{
+    margin-top: 2vh;
+    min-height: 2vh;
+    border: 1px solid;
+    border-radius: 3px;
+    padding: 7px;
+}
